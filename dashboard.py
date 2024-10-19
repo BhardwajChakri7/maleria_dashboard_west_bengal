@@ -28,11 +28,11 @@ def display_state_data(state, total_users, positive_cases, negative_cases):
     st.write('---')
 
 # List of states and union territories
-state = "Andhra Pradesh"
+state = "West Bengal"
 
 # Loop through each state and display its data if present in the summary
 
-state_data = state_summary[state_summary['State'] == "Andhra Pradesh"]
+state_data = state_summary[state_summary['State'] == "West Bengal"]
 if not state_data.empty:
     display_state_data(
         state,
